@@ -26,15 +26,6 @@ function ToDoApp() {
     localStorage.removeItem("toDos[]");
     setToAdd("");
   };
-  // const handleDeleteTask = (index) => {
-  //   const newTasks = [...tasks];
-  //   newTasks.splice(index, 1);
-  //   setTasks(newTasks);
-  //   const removeTasks = JSON.stringify(newTasks);
-  //   localStorage.setItem("tasks", removeTasks);
-  //   localStorage.removeItem("tasks[]");
-  // };
-
   const deleteAll = () => {
     setToDo(() => []);
     setToAdd("");
